@@ -359,6 +359,10 @@ td {
     height: 100%;
 }
 
+.articulo-main{
+    min-height: 100vh;
+}
+
 .google-iframe {
     min-height: 50vh;
 }

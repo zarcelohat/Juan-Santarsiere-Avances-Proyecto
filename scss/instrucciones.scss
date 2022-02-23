@@ -1,0 +1,52 @@
+/*INSTRUCCIONES*/
+.main-instrucciones {
+    min-height: 100vh;
+}
+
+
+.fondoins {
+    background: url(../img/instruccionesjpg.jpg);
+    background-size: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*Index*/
+#padreindex {
+    display: grid;
+    width: 100%;
+
+
+}
+
+/* INSTRUCCIONES-----------------------*/
+th,
+td {
+    border: solid 1px black;
+    padding: 20px;
+    justify-content: center
+}
+
+
+.tabla2 {
+    background-color: #7c746a;
+    text-align: center;
+    width: 600px;
+    border-bottom: solid 6px #101010;
+    font-family: initial;
+    color: white;
+    font-style: italic;
+
+
+}
+
+.titulotabla {
+    background-color: #2209ff;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

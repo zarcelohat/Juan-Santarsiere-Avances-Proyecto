@@ -15,11 +15,28 @@
 }
 
 .pg {
-    color: #743513;
+    color: $negro;
     font-size:1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 5px;
+       box-shadow: 6px 4px 4px #00000079;
+    position: relative;
+    p {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        max-width: max-content;
+        margin: auto;
+        padding: .3em .5em;
+          background-color: $blanco;
+      
+            border: 2px solid $primario;
+    }
     img {
         width:100%;
         max-width: 650px;
@@ -34,4 +51,20 @@
 
 .fototeca1 {
     text-align: center;
+}
+.titulotabla {
+    @media screen and(max-width: 650px) {
+        display: none;
+    }
+}
+tbody {
+    background-color: transparent;
+}
+tr {
+    @media screen and(max-width: 650px) {
+        display: flex;
+        flex-direction: column;
+        margin: 1em ;
+        background-color: $primario;
+    }
 }

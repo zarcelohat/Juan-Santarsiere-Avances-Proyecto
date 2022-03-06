@@ -37,93 +37,99 @@
     @media screen and(max-width: 1350px) {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-
+    .producto-fuera {
+        font-weight: bold;
+        border-radius: 3px;
+        font-size: 2rem;
+        padding: 1em ;
+        box-shadow: 4px 4px 4px #0000004d;
+    }
     .producto {
-        border: 1px solid black;
         font-weight: 600;
         color: white;
         text-align: center;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 1.4rem;
         width: 100%;
         height: 100%;
+        display: grid;
+        place-content: center;
 
     }
 
-    .producto:nth-child(1) {
+    .producto-fuera:nth-child(1) {
 
         background-color: #00801c;
 
     }
 
-    .producto:nth-child(2) {
+    .producto-fuera:nth-child(2) {
 
         background-color: rgb(48, 7, 197);
 
     }
 
-    .producto:nth-child(3) {
+    .producto-fuera:nth-child(3) {
 
         background-color: #c5044e;
 
     }
 
-    .producto:nth-child(4) {
+    .producto-fuera:nth-child(4) {
         background-color: rgb(16, 213, 248);
 
     }
 
-    .producto:nth-child(5) {
+    .producto-fuera:nth-child(5) {
         background-color: rgb(255, 8, 234);
 
     }
 
-    .producto:nth-child(6) {
+    .producto-fuera:nth-child(6) {
         background-color: rgb(255, 191, 16);
 
     }
 
-    .producto:nth-child(7) {
+    .producto-fuera:nth-child(7) {
         background-color: chocolate;
 
     }
 
-    .producto:nth-child(8) {
+    .producto-fuera:nth-child(8) {
         background-color: rgb(83, 134, 0);
 
     }
 
-    .producto:nth-child(9) {
+    .producto-fuera:nth-child(9) {
         background-color: rgb(25, 0, 250);
 
     }
 
-    .producto:nth-child(10) {
+    .producto-fuera:nth-child(10) {
         background-color: rgb(148, 81, 255);
 
     }
 
-    .producto:nth-child(11) {
+    .producto-fuera:nth-child(11) {
         background-color: rgb(255, 60, 0);
 
     }
 
-    .producto:nth-child(12) {
-        background-color: rgb(0, 0, 0);
+    .producto-fuera:nth-child(12) {
+        background-color: rgb(61, 185, 24);
 
     }
 
-    .producto:nth-child(13) {
+    .producto-fuera:nth-child(13) {
         background-color: rgb(145, 0, 126);
 
     }
 
-    .producto:nth-child(14) {
+    .producto-fuera:nth-child(14) {
         background-color: rgb(126, 61, 14);
 
     }
 
-    .producto:nth-child(15) {
+    .producto-fuera:nth-child(15) {
         background-color: rgb(216, 226, 79);
 
     }

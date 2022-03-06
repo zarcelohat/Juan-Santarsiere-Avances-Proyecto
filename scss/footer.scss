@@ -4,10 +4,13 @@ footer {
     width: 100%;
     background: #202020;
     color: $blanco;
-    padding-top: 10px;
+  
 
 }
 
+.contefooter {
+    padding: 2rem ;
+}
 
 .contefull {
     width: 100%;
@@ -22,12 +25,25 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
+     padding: 4rem 2rem;
 }
 
+.contactos-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    @media screen and(max-width: 768px) {
+        flex-direction: column;
+    }
+}
 
 .columna  {
+    padding: 1.4em 0;
       max-width: 400px;
+      h2 {
+          font-size: 1.4rem;
+      }
     p {
             color: #c7c7c7;
             margin-top: 14px;
@@ -70,7 +86,7 @@ footer {
     display: flex;
     justify-content: space-between;
         flex-wrap: wrap;
-    padding: 20px;
+   
 
 }
 
